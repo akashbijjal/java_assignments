@@ -12,6 +12,7 @@ public static void main(String[] args) {
 	
 	System.out.println("******************");
 	System.out.println("converted to Array");
+	System.out.println("******************");
 	String [] arr=list.toArray(String[]::new);
 	System.out.println(Arrays.toString(arr));
 	
